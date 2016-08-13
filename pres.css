@@ -1,0 +1,147 @@
+/* -*- coding: utf-8 -*- */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Charis SIL", "Bitstream Charter",
+      "Constantia", "Georgia", "Hoefler Text", serif;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+p {
+    margin: 0 auto;
+	padding-bottom: 1ex;
+    max-width: 40rem;
+    line-height: 1.25em;
+    text-align: justify;
+    text-indent: 1em;
+}
+
+h1 {
+    max-width: 40rem;       margin: 0 auto;
+    padding-top: 1rem;      padding-bottom: 1rem;
+    -moz-hyphens: none;     -webkit-hyphens: none;
+    -ms-hyphens: none;      hyphens: none;
+    font-family: "Calibri", "Lucida Grande", sans-serif;
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+
+h2 {
+    max-width: 40rem;       margin: 0 auto;
+}
+
+h3 {
+    max-width: 40rem;       margin: 0 auto;
+}
+
+h4 {
+    max-width: 40rem;       margin: 0 auto;
+}
+
+li {
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+dd {
+    text-indent: 1rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+img, svg {
+    margin: 0 auto;
+	padding: 1ex;
+}
+
+pre {
+    font-family: "Ubuntu Mono", "Consolas", "Menlo", monospace;
+}
+
+code, kbd {
+    font-family: "Ubuntu Mono", "Consolas", "Menlo", monospace;
+    font-size: 100%;
+}
+
+.org-src-container {
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+.article-info {
+	border-right: 1px solid gray;
+    text-align: right;
+	font-size: 90%;
+	line-height: 1em;
+    max-width: 12em;
+	margin-bottom: 1rem;
+	padding: 0.5ex;
+}
+
+.showcase {
+    max-width: 640px;
+    border: 2px outset grey;
+    margin: 1rem auto;
+    padding: 1ex;
+    position: relative;
+}
+
+.showcase p {
+    padding-right: 8em;
+    padding-left: 1.2ex;
+    padding-bottom: 1em;
+    max-width: 40em;
+    font-size: 90%;
+}
+
+.showcase .written-code {
+    padding-right: 0;
+    white-space: pre-wrap;
+    max-width: 24em;
+}
+
+.written-code code {
+    display: block;
+    text-indent: -1em;
+    padding-left: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    margin: 0;
+    max-width: 20em;
+}
+
+.defined-name {
+    font-family: "TeX Gyre Pagella", "TeX Palladio",
+	             "Palatino", "Palatino Linotype", serif;
+}
+
+.mt_sectitle::before {
+    content: "｢";
+}
+
+.mt_sectitle::after {
+    content: "｣";
+    position: relative;
+    left: 32rem;
+    bottom: 1rem;
+}
+
+.mt_sectitle p {
+    font-family: "Calibri", "Lucida Grande", sans-serif;
+	font-size: 1.2rem;
+    -moz-hyphens: none;     -webkit-hyphens: none;
+    -ms-hyphens: none;      hyphens: none;
+    text-indent: 0;
+}
+
+.mt_concept {
+    text-decoration: underline solid red;
+}
