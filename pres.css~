@@ -99,7 +99,6 @@ code, kbd {
     padding-bottom: 1em;
     max-width: 40em;
     font-size: 90%;
-    text-indent: 0;
 }
 
 .showcase .written-code {
