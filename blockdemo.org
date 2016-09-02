@@ -1,0 +1,32 @@
+#+LANGUAGE: en
+#+OPTIONS: H:10
+#+OPTIONS: toc:nil
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:nil
+#+OPTIONS: html-preamble:t html-scripts:nil html-style:t
+#+OPTIONS: html5-fancy:t tex:t
+#+HTML_DOCTYPE: xhtml5
+#+HTML_CONTAINER: section
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+HTML_LINK_UP:
+#+OPTIONS: tex:dvipng
+
+#+macro: mt_concept @@html:<i class="mt_concept">@@@@latex:\textsc{@@$1@@latex:}@@@@html:</i>@@
+#+macro: mt_emphasis @@html:<em>@@@@latex:\emph{@@$1@@latex:}@@@@html:</em>@@
+
+#+begin_section
+#+attr_html: :id about-blocks :class mt_sectitle
+#+begin_header
+How block-delimited lines become paragraphs,
+which are at the syntactic level
+of {{{mt_concept(elements)}}} in Org parlance
+#+end_header
+
+The parsing rules dictate that, because Org
+is very much a {{{mt_emphasis(line-based)}}} format
+(in its surface guise), paragraphs are created
+inside the special blocks as expected.
+
+As for the lexical macros, they are expanded
+at the very beginning of the export process.
+#+end_section
